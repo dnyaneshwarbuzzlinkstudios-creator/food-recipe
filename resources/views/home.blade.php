@@ -408,24 +408,15 @@
 }
 .wf-section-title {
     padding: 0.5em 0px;
+    font-size: 2.8125em;
   }
 
-
-
-/* Responsive Design */
-@media (max-width: 991.98px) {
-  .wf-section-title {
-    font-size: 2.5rem;
-  }
-
-  .wf-social-icons {
-    justify-content: center;
-  }
-
-  .wf-footer-logo {
-    justify-content: center;
-  }
+  .nav-link:focus, .nav-link:hover {
+    color: #ffffff !important;
 }
+
+
+
 
 
 /* footer  */
@@ -550,7 +541,7 @@
   }
   .hero-content h1 {
         font-family: "Playfair Display";
-    font-size: 5em;
+    font-size: 4.5em;
     letter-spacing: 0em;
     line-height: 1;
     color: rgb(255, 255, 255);
@@ -572,8 +563,6 @@
 
   .wf-section-title {
     font-size: 2rem;
-
-    margin-bottom: 40px;
   }
 
   .wf-recipe-content {
@@ -743,11 +732,11 @@
     </div>
 
     <!-- Extra Section to Enable Scrolling -->
-        <div class="container-fluid" style="background: #ffffff;">
+        <div class="container-fluid" style="background: #ffffff;border-radius: 0.5em 0.5em 0px 0px;">
             <!-- Section Title -->
             <div class="row ">
                 <div class="col-12 text-center justify-content-center align-items-center">
-                    <h1 class="wf-section-title" style="font-size: 2.81rem;">Weekly Favorites</h1>
+                    <h1 class="wf-section-title" >Weekly Favorites</h1>
                 </div>
             </div>
 
